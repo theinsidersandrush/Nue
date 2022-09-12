@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Nue.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nue"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <WebView x:Name="webViewA" Source="https://static.wikia.nocookie.net/touhou/images/b/b6/Nue2.png/revision/latest?cb=20091021111805" LoadCompleted="webViewA_LoadCompleted"/>
+    
+    </Grid>
+</Page>
