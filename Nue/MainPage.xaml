@@ -9,7 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <WebView x:Name="webViewA" Source="https://static.wikia.nocookie.net/touhou/images/b/b6/Nue2.png/revision/latest?cb=20091021111805" LoadCompleted="webViewA_LoadCompleted"/>
-    
+        <Image HorizontalAlignment="Center" Height="717" VerticalAlignment="Top" Width="412" Source="/Assets/Image/Nue2.png" Margin="0,10,0,0"/>
+
+
     </Grid>
 </Page>
